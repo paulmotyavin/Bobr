@@ -165,7 +165,7 @@ namespace BobrPraktik
             var allProductData = products.GetData();
             for (int i = 0; i < allProductData.Count; i++)
                 price += Convert.ToDecimal(allProductData[i][2]);
-            return "Общее количество: " + price;
+            return "Общая стоимость: " + price;
         }
     }
 }
